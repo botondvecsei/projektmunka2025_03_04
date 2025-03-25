@@ -7,7 +7,7 @@ document.getElementById('contactForm')?.addEventListener('submit', function(e) {
     if (name === '' || email === '') {
       message.textContent = "Kérlek töltsd ki az összes mezőt!";
     } else {
-      message.textContent = "Sikeres küldés!";
+        alert("Sikeres küldés");
       message.classList.remove('text-danger');
       message.classList.add('text-success');
     }
