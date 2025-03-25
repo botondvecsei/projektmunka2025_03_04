@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Érdekességek</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="bg-dark text-white p-3">
+  <div class="container">
+    <h1>Filmek és Sorozatok</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Főoldal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="characters.html">Karakterek</a></li>
+            <li class="nav-item"><a class="nav-link" href="funfacts.html">Érdekességek</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="container mt-4">
+  <section>
+    <h2>Érdekességek</h2>
+    <article>
+      <ul>
+        <li>A film forgatása 6 országban zajlott.</li>
+        <li>A híres forgó totem valóban készült egyetlen darabból.</li>
+        <li> A film számos jelenetében minimális számítógépes effekteket használtak. Például a híres forgó folyosós harcjelenetet valóban egy hatalmas, forgó díszletben vették fel.</li>
+        <li>A film érzelmi súlya Cobb múltjából ered, ami Nolan szerint az egész történet egyik legfontosabb eleme.</li>
+        <li>A film végső jelenete nyitva hagyja a kérdést, hogy Cobb végül valóságban van-e, vagy még mindig egy álomban rekedt.</li>
+      </ul>
+    </article>
+  </section>
+
+  <aside class="mt-4">
+    <h3>Kapcsolatfelvétel</h3>
+    <form id="contactForm">
+      <div class="mb-3">
+        <label for="name" class="form-label">Név:</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email cím:</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <button type="submit" class="btn btn-primary">Küldés</button>
+      <p id="formMessage" class="text-danger mt-2"></p>
+    </form>
+  </aside>
+</main>
+
+<footer class="bg-dark text-white text-center p-2 mt-4">
+  &copy; 2025 Filmek és Sorozatok
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
